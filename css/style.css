@@ -5,6 +5,10 @@
     padding: 0px;
 }
 
+img {
+    max-width: 100%;
+}
+
 body {
     background-color: rgb(211, 210, 210);
 }
@@ -38,4 +42,11 @@ a:hover {
 
 main {
     background-color: white;
+}
+
+section#imagemFundo {
+    height: 200px;
+    background-image: url(../img/imagem-cozinha.JPEG);
+    background-position: center -1900px;
+    background-attachment: fixed;
 }
