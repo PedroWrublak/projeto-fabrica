@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(211, 210, 210);
+}
+
+header {
+    display: flex;
+    background-color: rgba(56, 55, 55, 0.986);
+    color: white;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font: normal arial;
+}
+
+a {
+    background-color: rgb(119, 110, 110);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 15px ;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    background-color: white;
+}
+
+section#imagemFundo {
+    height: 200px;
+    background-image: url(../img/imagem-cozinha.JPEG);
+    background-position: center -1900px;
+    background-attachment: fixed;
+}
